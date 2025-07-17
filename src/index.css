@@ -1,0 +1,94 @@
+@import "tailwindcss";
+/* فونت استعداد - وزن 100 (Thin) */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-FD-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فونت استعداد - وزن 200 (ExtraLight) */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-FD-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فونت استعداد - وزن 300 (Light) */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-FD-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فونت استعداد - وزن 400 (Regular) */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-FD-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فونت استعداد - وزن 500 (Medium) */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-FD-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فونت استعداد - وزن 600 (SemiBold) */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-FD-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فونت استعداد - وزن 700 (Bold) */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-FD-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فونت استعداد - وزن 800 (ExtraBold) */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-FD-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* فونت استعداد - وزن 900 (Black) */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-FD-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @theme {
+    --color-primary:"#f84565";
+    --color-primary-dull:"#D63854"
+} */
+@theme {
+
+}
+* {
+  text-align: right;
+  direction: rtl;
+  font-family: Estedad, sans-serif;
+}
